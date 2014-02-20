@@ -60,7 +60,7 @@ class gitlab::params {
     'RedHat': {
       $git_package_name = 'git'
       # system packages
-      $system_packages = ['libicu-devel', 'perl-Time-HiRes','libxml2-devel',
+      $system_packages = ['ruby-devel', 'libicu-devel', 'perl-Time-HiRes','libxml2-devel',
                           'libxslt-devel','python-devel','libcurl-devel',
                           'readline-devel','openssl-devel','zlib-devel',
                           'libyaml-devel','patch','gcc-c++']
